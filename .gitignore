@@ -2,3 +2,4 @@
 __pycache__/
 venv/
 **/.env
+02-open-source/ollama_files/*
