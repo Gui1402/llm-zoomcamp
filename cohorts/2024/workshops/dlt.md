@@ -1,5 +1,7 @@
 # Open source data ingestion for RAGs with dlt
 
+Video: https://www.youtube.com/watch?v=qUNyfR_X2Mo
+
 In this hands-on workshop, we’ll learn how to build a data ingestion pipeline using dlt to load data from a REST API into LanceDB so you can have an always up to date RAG.
 
 ​We’ll cover the following steps:
@@ -10,19 +12,25 @@ In this hands-on workshop, we’ll learn how to build a data ingestion pipeline 
 
 ​By the end of this workshop, you’ll be able to write a portable, OSS data pipeline for your RAG that you can deploy anywhere, such as python notebooks, virtual machines, or orchestrators like Airflow, Dagster or Mage.
 
-If you don't take the course and want to sign up only for this workshop, use this link: https://lu.ma/cnpdoc5n
+
+# Resources
+
+* Slides: [dlt-LLM-Zoomcamp.pdf](https://github.com/user-attachments/files/16131729/dlt.LLM.Zoomcamp.pdf)
+* [Google Colab notebook](https://colab.research.google.com/drive/1nNOybHdWQiwUUuJFZu__xvJxL_ADU3xl?usp=sharing) - make a copy to follow along!
 
 --- 
 
 # Homework
 
-In the demo, we extracted contents from two pages in notion titled "Workshop: Benefits and Perks" and "Workshop: Working hours, PTO, and Vacation". 
+In the workshop, we extracted contents from two pages in notion titled "Workshop: Benefits and Perks" and "Workshop: Working hours, PTO, and Vacation". 
 
-Repeat the same process for a third page titled "Homework: Employee handbook":
+Repeat the same process for a third page titled "Homework: Employee handbook" (hidden from public view, but accessible via API key):
 
 1. Modify the REST API source to extract only this page.
 2. Write the output into a separate table called "homework".
 3. Remember to update the table name in all cells where you connect to a lancedb table.
+
+To do this you can use the [workshop Colab](https://colab.research.google.com/drive/1nNOybHdWQiwUUuJFZu__xvJxL_ADU3xl?usp=sharing) as a basis.
 
 Now, answer the following questions:  
 
